@@ -1,0 +1,41 @@
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+
+# Keras / TensorFlow checkpoints (intermediate — final weights are committed)
+cnn_best_p1.keras
+cnn_model.keras
+vit_model.keras
+
+# Large binaries — use Git LFS or Colab for these if too big
+# Uncomment the lines below to exclude the final .keras files from git
+# cnn_model_final.keras
+# vit_model_final.keras
+
+# Submission ZIP (generated artifact)
+*.zip
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# TF datasets cache (Colab-side, not committed)
+/root/tensorflow_datasets/
+tensorflow_datasets/
